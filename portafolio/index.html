@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <script src="https://kit.fontawesome.com/f988657179.js" crossorigin="anonymous"></script>
+    <style>
+        section {
+            margin-bottom: 2.5rem;
+        }
+        article {
+            display: inline-block;
+            padding: 10px 20px;
+        }
+        td {
+            padding: 5px 10px;
+        }
+        th {
+            border-bottom: 1px solid black;
+        
+        }
+        td {
+            border-bottom: 1px solid black;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+        form {
+            width: 50%;
+        }
+        #submit {
+            padding: 10px 20px;
+            background-color: steelblue;
+            border: none;
+            color: #fff;
+            margin: 1rem ;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kevin Collao</h1>
+        <img src="./assets/img/yo.png" alt="foto" style="width: 200px;">
+        <div>
+            <article>
+                <i class="fa-brands fa-github" style="font-size: 2.5rem"></i>
+                <a href="https://github.com/Kevin27x">Github</a>
+            </article>
+            <article>
+                <i class="fa-brands fa-linkedin" style="font-size: 2.5rem"></i>
+                <a href="https://www.linkedin.com/in/kevin-collao-164373230/" >Linkedin</a>
+            </article>
+            <article>
+                <i class="fa-solid fa-envelope" style="font-size: 2.5rem"></i>
+                <a href="">Email</a>
+            </article>
+
+        </div>
+    </header>
+    <section>
+        <h2>Technologies</h2>
+        <table >
+            <thead style="border-bottom: 1px solid black;">
+                <th>Front-End</th>
+                <th>Python</th>
+                <th>Javascript</th>
+                <th>Database</th>
+                <th>Concepts</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML5</td>
+                    <td>Django</td>
+                    <td>Express</td>
+                    <td>MySql</td>
+                    <td>AJAX</td>
+                </tr>
+                <tr>
+                    <td>CSS3</td>
+                    <td>Flask</td>
+                    <td>Mongoose</td>
+                    <td>MongoDB</td>
+                    <td>OOP</td>
+                </tr>
+                <tr>
+                    <td>Bootstrap</td>
+                    <td>Unittest</td>
+                    <td>React</td>
+                    <td></td>
+                    <td>REST</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2>Social Snakes</h2>
+        <p>Social Media App made in Python - <a href="">code</a> | <a href="">deployed</a></p>
+    </section>
+    <form action="">
+        <h2>Contact Me</h2>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+            <label for="mail">Email</label>
+            <input type="email" id="mail">
+        </div>
+        <br>
+        <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="45" rows="5"></textarea>
+        </div>
+
+        <input type="submit" value="Send Message" id="submit">
+    </form>
+
+
+</body>
+</html>

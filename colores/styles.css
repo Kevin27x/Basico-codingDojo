@@ -1,0 +1,29 @@
+
+h1 {
+    color: aqua;
+    background-color: black;
+    padding: 10px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+h1 span {
+    color: white;
+}
+
+h2 {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    background-color: rgb(12, 59, 61);
+    text-align: right;
+    text-decoration: underline;
+    padding: 10px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: steelblue;
+}

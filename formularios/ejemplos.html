@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Tipos de entradas-->
+    <input type="text" name="first_name">
+
+    <input type="number" name="age">
+
+    <input type="password" name="password">
+
+    <input type="date" name="date">
+
+    <input type="color" name="color">
+    <!--Etiqueta label con input-->
+    <input type="radio" name="font" value="bold" id="bold">
+    <label for="bold"><strong>Negrita</strong></label>
+    <input type="radio" name="font" value="normal" id="normal">
+    <label for="normal">Normal</label>
+
+    <h2>Color favorito</h2>
+    <input type="radio" name="colorFav" value="rojo" id="rojo">
+    <label for="rojo">Rojo</label>
+    <input type="radio" name="colorFav" value="azul" id="azul">
+    <label for="azul">Azul</label>
+    <!--Texto de area-->
+    <textarea name="comment" cols="20" rows="3"></textarea>
+
+    <!--Seleccionar-->
+    <select name="color">
+        <option>Rojo</option>
+        <option>Azul</option>
+        <option>Verde</option>
+        <option>Amarillo</option>
+    </select>
+
+    <!--Formulario y checkbox-->
+    <form action="/process" method="post">
+        <div>
+            <label>Nombre: </label>
+            <input type="text" name="name" 
+            placeholder="Your name..." >
+        </div>
+        <div>
+            <label>Email: </label>
+            <input type="text" name="email" 
+            placeholder="Your email..." >
+        </div>
+        <div>
+            <input type="checkbox" name="offers" 
+            id="offers" checked >
+            <label for="offers">Me gustaría 
+            recibir correos con ofertas.</label>
+        </div>
+        <input type="submit" value="Sign up" >
+    </form>
+    
+</body>
+</html>
